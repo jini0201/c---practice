@@ -36,7 +36,7 @@ int main()
 	sort(word.begin(), word.end(), compare);
 	
 	char ch_l[100], ch_s[100];
-    strcpy(ch_s,word[0].c_str());
+ 	strcpy(ch_s,word[0].c_str());
 	strcpy(ch_l,word[size-1].c_str());
 
 	cout << endl;
